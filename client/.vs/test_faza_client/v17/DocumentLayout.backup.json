@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tkach\\Documents\\C#\\test_faza_client\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{93A5966D-DE0E-495A-A616-10AA6DFBC72B}|test_faza_client.csproj|c:\\users\\tkach\\documents\\c#\\test_faza_client\\api\\services\\deviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A5966D-DE0E-495A-A616-10AA6DFBC72B}|test_faza_client.csproj|solutionrelative:api\\services\\deviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A5966D-DE0E-495A-A616-10AA6DFBC72B}|test_faza_client.csproj|c:\\users\\tkach\\documents\\c#\\test_faza_client\\api\\services\\generatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A5966D-DE0E-495A-A616-10AA6DFBC72B}|test_faza_client.csproj|solutionrelative:api\\services\\generatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A5966D-DE0E-495A-A616-10AA6DFBC72B}|test_faza_client.csproj|c:\\users\\tkach\\documents\\c#\\test_faza_client\\api\\services\\interfaceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A5966D-DE0E-495A-A616-10AA6DFBC72B}|test_faza_client.csproj|solutionrelative:api\\services\\interfaceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A5966D-DE0E-495A-A616-10AA6DFBC72B}|test_faza_client.csproj|c:\\users\\tkach\\documents\\c#\\test_faza_client\\api\\services\\registerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A5966D-DE0E-495A-A616-10AA6DFBC72B}|test_faza_client.csproj|solutionrelative:api\\services\\registerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A5966D-DE0E-495A-A616-10AA6DFBC72B}|test_faza_client.csproj|c:\\users\\tkach\\documents\\c#\\test_faza_client\\api\\services\\registervalueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A5966D-DE0E-495A-A616-10AA6DFBC72B}|test_faza_client.csproj|solutionrelative:api\\services\\registervalueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DeviceService.cs",
+              "DocumentMoniker": "C:\\Users\\tkach\\Documents\\C#\\test_faza_client\\api\\services\\DeviceService.cs",
+              "RelativeDocumentMoniker": "api\\services\\DeviceService.cs",
+              "ToolTip": "C:\\Users\\tkach\\Documents\\C#\\test_faza_client\\api\\services\\DeviceService.cs",
+              "RelativeToolTip": "api\\services\\DeviceService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T19:48:52.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GeneratorService.cs",
+              "DocumentMoniker": "C:\\Users\\tkach\\Documents\\C#\\test_faza_client\\api\\services\\GeneratorService.cs",
+              "RelativeDocumentMoniker": "api\\services\\GeneratorService.cs",
+              "ToolTip": "C:\\Users\\tkach\\Documents\\C#\\test_faza_client\\api\\services\\GeneratorService.cs",
+              "RelativeToolTip": "api\\services\\GeneratorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T19:48:48.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InterfaceService.cs",
+              "DocumentMoniker": "C:\\Users\\tkach\\Documents\\C#\\test_faza_client\\api\\services\\InterfaceService.cs",
+              "RelativeDocumentMoniker": "api\\services\\InterfaceService.cs",
+              "ToolTip": "C:\\Users\\tkach\\Documents\\C#\\test_faza_client\\api\\services\\InterfaceService.cs",
+              "RelativeToolTip": "api\\services\\InterfaceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T19:48:45.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterService.cs",
+              "DocumentMoniker": "C:\\Users\\tkach\\Documents\\C#\\test_faza_client\\api\\services\\RegisterService.cs",
+              "RelativeDocumentMoniker": "api\\services\\RegisterService.cs",
+              "ToolTip": "C:\\Users\\tkach\\Documents\\C#\\test_faza_client\\api\\services\\RegisterService.cs",
+              "RelativeToolTip": "api\\services\\RegisterService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T19:48:41.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegisterValueService.cs",
+              "DocumentMoniker": "C:\\Users\\tkach\\Documents\\C#\\test_faza_client\\api\\services\\RegisterValueService.cs",
+              "RelativeDocumentMoniker": "api\\services\\RegisterValueService.cs",
+              "ToolTip": "C:\\Users\\tkach\\Documents\\C#\\test_faza_client\\api\\services\\RegisterValueService.cs",
+              "RelativeToolTip": "api\\services\\RegisterValueService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T19:48:30.683Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
