@@ -19,16 +19,13 @@ namespace test_Faza.api.services
             {
                 if (_databaseRepository.Create(interfaceEntity) != null)
                 {
-                    Console.WriteLine($"InterfaceService\r\nИнтерфейс {interfaceEntity.Name} добавлен");
                     return interfaceEntity;
                 }
 
-                Console.WriteLine("interfaceEntity не был передан в запросе");
                 return null;
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"InterfaceService\r\nОшибка при добавлении:{ex.Message}");
                 return null;
             }
         }
@@ -43,7 +40,6 @@ namespace test_Faza.api.services
             return null;
         }
 
-        // TODO: REFACTOR
         public List<Interface> ReadAllIncluding()
         {
             List<Interface> allInterfaces = _databaseRepository.ReadAllIncluding();
@@ -51,18 +47,15 @@ namespace test_Faza.api.services
             return allInterfaces;
         }
 
-        // TODO: REFACTOR
         public Interface? Update(Interface interfaceEntity)
         {
             try
             {
                 _databaseRepository.Update(interfaceEntity);
-                Console.WriteLine($"InterfaceService\r\nИнтерфейс {interfaceEntity.Name} обновлён");
                 return interfaceEntity;
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"InterfaceService\r\nОшибка при обновлении:{ex.Message}");
                 return null;
             }
         }

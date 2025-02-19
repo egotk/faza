@@ -5,6 +5,7 @@ using Newtonsoft.Json;
 using test_Faza.api.controllers;
 using test_Faza.api.dto.requestDTO;
 using test_Faza.api.dto.responseDTO;
+using test_Faza.api.server.tcp;
 using test_Faza.logger;
 
 namespace test_Faza.api.server
@@ -41,19 +42,18 @@ namespace test_Faza.api.server
             try
             {
                 _listener.Start();
-                _logger.LogMessage($"Сервер запущен на порте={_port} IP={_address}", database.entities.MessageType.Basic);
+                _logger.LogMessage($"TCP Сервер запущен на порте={_port} IP={_address}", database.entities.MessageType.Basic);
 
                 while (true)
                 {
                     TcpClient client = await _listener.AcceptTcpClientAsync();
-                    Console.WriteLine($"Клиент {client.Client.RemoteEndPoint} подключился");
                     _ = Task.Run(async () => await ProcessClientAsync(client));
                 }
             }
             finally
             {
                 _listener.Stop();
-                _logger.LogMessage($"Сервер на порте={_port} IP={_address} остановлен", database.entities.MessageType.Basic);
+                _logger.LogMessage($"TCP Сервер на порте={_port} IP={_address} остановлен", database.entities.MessageType.Basic);
             }
 
         }

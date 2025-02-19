@@ -6,7 +6,6 @@ using test_faza_client.entities.request;
 
 namespace test_faza_client.api
 {
-    // TODO: try catch по-другому
     internal class TcpClientService
     {
         private readonly string _ip = DefaultData.ip;
@@ -30,7 +29,6 @@ namespace test_faza_client.api
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Ошибка при отправке запроса: {ex.Message}");
                 return null;
             }
         }

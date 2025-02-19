@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Newtonsoft.Json;
+using test_Faza.api.dto.entityDTO;
 using test_Faza.api.dto.requestDTO;
 using test_Faza.api.dto.responseDTO;
 using test_Faza.api.services.interfaces;
@@ -43,7 +44,7 @@ namespace test_Faza.api.controllers
                             DateTime startDate = valueHistoryRequest.StartDate;
                             DateTime endDate = valueHistoryRequest.EndDate;
 
-                            List<RegisterValue> valuesHistory = _registerValueService.GetValuesHistory(register, startDate, endDate);
+                            List<RegisterValueDTO> valuesHistory = _mapper.Map<List<RegisterValueDTO>>(_registerValueService.GetValuesHistory(register, startDate, endDate));
 
                             if (valuesHistory.Count > 0)
                             {

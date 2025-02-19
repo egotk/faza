@@ -1,5 +1,4 @@
 using Microsoft.Extensions.DependencyInjection;
-using Newtonsoft.Json;
 using test_faza_client.api.service.interfaces;
 using test_faza_client.api.services.interfaces;
 using test_faza_client.common.entity;
@@ -226,7 +225,6 @@ namespace test_faza_client
                 DateTime startDate = _startDate.Value;
                 DateTime endDate = _endDate.Value;
                 _values = await _registerValueService.GetValueHistory(_selectedRegister, startDate, endDate);
-                Console.WriteLine(JsonConvert.SerializeObject(_values));
                 FillRegisterValueListView();
             }
         }
@@ -337,6 +335,7 @@ namespace test_faza_client
         // показать панели с формами для добавления сущностей
         private void addInterfaceButton_Click(object sender, EventArgs e)
         {
+            addInterfacePanel.BringToFront();
             interfaceNameTextbox.Text = string.Empty;
             interfaceDescriptionTextbox.Text = string.Empty;
             addInterfacePanel.Visible = true;
@@ -346,6 +345,7 @@ namespace test_faza_client
         {
             _selectedColor = null;
 
+            addDevicePanel.BringToFront();
             addDevicePanel.Visible = true;
             List<int> interfaceIds = _interfaces.Select(i => i.Id ?? 0).Distinct().ToList();
 
@@ -357,6 +357,7 @@ namespace test_faza_client
         private void addRegisterButton_Click(object sender, EventArgs e)
         {
             addRegisterPanel.Visible = true;
+            addRegisterPanel.BringToFront();
             List<int> deviceIds = _devices.Select(d => d.Id ?? 0).Distinct().ToList();
 
             deviceIdComboBox.DataSource = deviceIds;

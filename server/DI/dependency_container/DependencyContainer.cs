@@ -1,6 +1,8 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using test_Faza.api.controllers;
 using test_Faza.api.server;
+using test_Faza.api.server.http;
+using test_Faza.api.server.tcp;
 using test_Faza.api.services;
 using test_Faza.api.services.interfaces;
 using test_Faza.database.config;
@@ -30,10 +32,13 @@ namespace test_Faza.DI.dependency_container
             services.AddScoped<RegisterController>();
             services.AddScoped<RegisterValueController>();
             services.AddScoped<GeneratorController>();
+            services.AddScoped<LogController>();
             services.AddAutoMapper(typeof(MapperProfile));
             services.AddScoped<IGenerator, Generator>();
             services.AddScoped<IMyLogger, MyLogger>();
             services.AddScoped<ITcpServer, TcpServer>();
+            services.AddScoped<IHttpServer, HttpServer>();
+            services.AddScoped<ILogService, LogService>();
             IServiceProvider provider = services.BuildServiceProvider();
 
             return provider;

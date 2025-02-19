@@ -1,9 +1,9 @@
-﻿using test_Faza.database.entities;
+﻿using test_Faza.api.dto.entityDTO;
 
 namespace test_Faza.api.dto.responseDTO
 {
     internal class ValueHistoryResponse : BaseResponse
     {
-        public required List<RegisterValue> values;
+        public required List<RegisterValueDTO> values;
     }
 }

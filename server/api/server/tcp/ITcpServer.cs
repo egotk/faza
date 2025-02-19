@@ -1,4 +1,4 @@
-﻿namespace test_Faza.api.server
+﻿namespace test_Faza.api.server.tcp
 {
     internal interface ITcpServer
     {

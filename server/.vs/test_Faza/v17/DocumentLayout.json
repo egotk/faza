@@ -1,12 +1,134 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\tkach\\Documents\\C#\\faza\\server\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41FB8D7F-CE8C-417B-93CA-504E7D43F827}|test_Faza.csproj|c:\\users\\tkach\\documents\\c#\\faza\\server\\database\\config\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41FB8D7F-CE8C-417B-93CA-504E7D43F827}|test_Faza.csproj|solutionrelative:database\\config\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41FB8D7F-CE8C-417B-93CA-504E7D43F827}|test_Faza.csproj|c:\\users\\tkach\\documents\\c#\\faza\\server\\database\\entities\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41FB8D7F-CE8C-417B-93CA-504E7D43F827}|test_Faza.csproj|solutionrelative:database\\entities\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41FB8D7F-CE8C-417B-93CA-504E7D43F827}|test_Faza.csproj|c:\\users\\tkach\\documents\\c#\\faza\\server\\database\\entities\\interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41FB8D7F-CE8C-417B-93CA-504E7D43F827}|test_Faza.csproj|solutionrelative:database\\entities\\interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41FB8D7F-CE8C-417B-93CA-504E7D43F827}|test_Faza.csproj|c:\\users\\tkach\\documents\\c#\\faza\\server\\database\\entities\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41FB8D7F-CE8C-417B-93CA-504E7D43F827}|test_Faza.csproj|solutionrelative:database\\entities\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41FB8D7F-CE8C-417B-93CA-504E7D43F827}|test_Faza.csproj|c:\\users\\tkach\\documents\\c#\\faza\\server\\database\\entities\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41FB8D7F-CE8C-417B-93CA-504E7D43F827}|test_Faza.csproj|solutionrelative:database\\entities\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41FB8D7F-CE8C-417B-93CA-504E7D43F827}|test_Faza.csproj|c:\\users\\tkach\\documents\\c#\\faza\\server\\database\\entities\\registervalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41FB8D7F-CE8C-417B-93CA-504E7D43F827}|test_Faza.csproj|solutionrelative:database\\entities\\registervalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41FB8D7F-CE8C-417B-93CA-504E7D43F827}|test_Faza.csproj|c:\\users\\tkach\\documents\\c#\\faza\\server\\database\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41FB8D7F-CE8C-417B-93CA-504E7D43F827}|test_Faza.csproj|solutionrelative:database\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationContext.cs",
+              "DocumentMoniker": "C:\\Users\\tkach\\Documents\\C#\\faza\\server\\database\\config\\ApplicationContext.cs",
+              "RelativeDocumentMoniker": "database\\config\\ApplicationContext.cs",
+              "ToolTip": "C:\\Users\\tkach\\Documents\\C#\\faza\\server\\database\\config\\ApplicationContext.cs",
+              "RelativeToolTip": "database\\config\\ApplicationContext.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwBAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T01:08:15.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegisterValue.cs",
+              "DocumentMoniker": "C:\\Users\\tkach\\Documents\\C#\\faza\\server\\database\\entities\\RegisterValue.cs",
+              "RelativeDocumentMoniker": "database\\entities\\RegisterValue.cs",
+              "ToolTip": "C:\\Users\\tkach\\Documents\\C#\\faza\\server\\database\\entities\\RegisterValue.cs",
+              "RelativeToolTip": "database\\entities\\RegisterValue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T01:08:10.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register.cs",
+              "DocumentMoniker": "C:\\Users\\tkach\\Documents\\C#\\faza\\server\\database\\entities\\Register.cs",
+              "RelativeDocumentMoniker": "database\\entities\\Register.cs",
+              "ToolTip": "C:\\Users\\tkach\\Documents\\C#\\faza\\server\\database\\entities\\Register.cs",
+              "RelativeToolTip": "database\\entities\\Register.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T01:08:08.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Log.cs",
+              "DocumentMoniker": "C:\\Users\\tkach\\Documents\\C#\\faza\\server\\database\\entities\\Log.cs",
+              "RelativeDocumentMoniker": "database\\entities\\Log.cs",
+              "ToolTip": "C:\\Users\\tkach\\Documents\\C#\\faza\\server\\database\\entities\\Log.cs",
+              "RelativeToolTip": "database\\entities\\Log.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T01:08:04.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Interface.cs",
+              "DocumentMoniker": "C:\\Users\\tkach\\Documents\\C#\\faza\\server\\database\\entities\\Interface.cs",
+              "RelativeDocumentMoniker": "database\\entities\\Interface.cs",
+              "ToolTip": "C:\\Users\\tkach\\Documents\\C#\\faza\\server\\database\\entities\\Interface.cs",
+              "RelativeToolTip": "database\\entities\\Interface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T01:08:01.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Device.cs",
+              "DocumentMoniker": "C:\\Users\\tkach\\Documents\\C#\\faza\\server\\database\\entities\\Device.cs",
+              "RelativeDocumentMoniker": "database\\entities\\Device.cs",
+              "ToolTip": "C:\\Users\\tkach\\Documents\\C#\\faza\\server\\database\\entities\\Device.cs",
+              "RelativeToolTip": "database\\entities\\Device.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T01:07:57.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\tkach\\Documents\\C#\\faza\\server\\database\\entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "database\\entities\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\tkach\\Documents\\C#\\faza\\server\\database\\entities\\BaseEntity.cs",
+              "RelativeToolTip": "database\\entities\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T01:07:40.56Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,6 +1,4 @@
-﻿using Newtonsoft.Json;
-
-namespace test_Faza.database.entities
+﻿namespace test_Faza.database.entities
 {
     public enum FigureType
     {
@@ -12,8 +10,8 @@ namespace test_Faza.database.entities
     public class Device : BaseEntity
     {
         public int InterfaceId { get; set; }
-        [JsonIgnore]
-        public Interface? Interface { get; set; }
+        //[JsonIgnore]
+        //public Interface? Interface { get; set; }
         public required string Name { get; set; }
         public required string Description { get; set; }
         public bool IsEnabled { get; set; } = false;

@@ -22,7 +22,6 @@ namespace test_faza_client.api.services
                 TableName = "GENERATOR",
             };
 
-            Console.WriteLine(JsonConvert.SerializeObject(request));
             string? response = await _tcpClientService.SendRequest(request);
 
             if (response != null)
