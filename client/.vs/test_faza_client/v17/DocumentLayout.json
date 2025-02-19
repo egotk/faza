@@ -3,16 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\tkach\\Documents\\C#\\faza\\client\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{93A5966D-DE0E-495A-A616-10AA6DFBC72B}|test_faza_client.csproj|c:\\users\\tkach\\documents\\c#\\faza\\client\\api\\services\\deviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93A5966D-DE0E-495A-A616-10AA6DFBC72B}|test_faza_client.csproj|solutionrelative:api\\services\\deviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{93A5966D-DE0E-495A-A616-10AA6DFBC72B}|test_faza_client.csproj|c:\\users\\tkach\\documents\\c#\\faza\\client\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A5966D-DE0E-495A-A616-10AA6DFBC72B}|test_faza_client.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A5966D-DE0E-495A-A616-10AA6DFBC72B}|test_faza_client.csproj|c:\\users\\tkach\\documents\\c#\\faza\\client\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{93A5966D-DE0E-495A-A616-10AA6DFBC72B}|test_faza_client.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93A5966D-DE0E-495A-A616-10AA6DFBC72B}|test_faza_client.csproj|c:\\users\\tkach\\documents\\c#\\faza\\client\\api\\services\\generatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93A5966D-DE0E-495A-A616-10AA6DFBC72B}|test_faza_client.csproj|solutionrelative:api\\services\\generatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{93A5966D-DE0E-495A-A616-10AA6DFBC72B}|test_faza_client.csproj|c:\\users\\tkach\\documents\\c#\\faza\\client\\api\\tcpclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A5966D-DE0E-495A-A616-10AA6DFBC72B}|test_faza_client.csproj|solutionrelative:api\\tcpclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A5966D-DE0E-495A-A616-10AA6DFBC72B}|test_faza_client.csproj|c:\\users\\tkach\\documents\\c#\\faza\\client\\common\\request\\valuehistoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A5966D-DE0E-495A-A616-10AA6DFBC72B}|test_faza_client.csproj|solutionrelative:common\\request\\valuehistoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A5966D-DE0E-495A-A616-10AA6DFBC72B}|test_faza_client.csproj|c:\\users\\tkach\\documents\\c#\\faza\\client\\common\\request\\baserequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A5966D-DE0E-495A-A616-10AA6DFBC72B}|test_faza_client.csproj|solutionrelative:common\\request\\baserequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A5966D-DE0E-495A-A616-10AA6DFBC72B}|test_faza_client.csproj|c:\\users\\tkach\\documents\\c#\\faza\\client\\common\\request\\crudrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A5966D-DE0E-495A-A616-10AA6DFBC72B}|test_faza_client.csproj|solutionrelative:common\\request\\crudrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{93A5966D-DE0E-495A-A616-10AA6DFBC72B}|test_faza_client.csproj|c:\\users\\tkach\\documents\\c#\\faza\\client\\api\\services\\interfaceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93A5966D-DE0E-495A-A616-10AA6DFBC72B}|test_faza_client.csproj|solutionrelative:api\\services\\interfaceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A5966D-DE0E-495A-A616-10AA6DFBC72B}|test_faza_client.csproj|c:\\users\\tkach\\documents\\c#\\faza\\client\\common\\response\\generatorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A5966D-DE0E-495A-A616-10AA6DFBC72B}|test_faza_client.csproj|solutionrelative:common\\response\\generatorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A5966D-DE0E-495A-A616-10AA6DFBC72B}|test_faza_client.csproj|c:\\users\\tkach\\documents\\c#\\faza\\client\\common\\response\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A5966D-DE0E-495A-A616-10AA6DFBC72B}|test_faza_client.csproj|solutionrelative:common\\response\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A5966D-DE0E-495A-A616-10AA6DFBC72B}|test_faza_client.csproj|c:\\users\\tkach\\documents\\c#\\faza\\client\\api\\services\\deviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A5966D-DE0E-495A-A616-10AA6DFBC72B}|test_faza_client.csproj|solutionrelative:api\\services\\deviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93A5966D-DE0E-495A-A616-10AA6DFBC72B}|test_faza_client.csproj|c:\\users\\tkach\\documents\\c#\\faza\\client\\api\\services\\registerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,6 +67,109 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\tkach\\Documents\\C#\\faza\\client\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\tkach\\Documents\\C#\\faza\\client\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAD4v7AAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T23:46:31.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\tkach\\Documents\\C#\\faza\\client\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\tkach\\Documents\\C#\\faza\\client\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T23:46:25.484Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TcpClientService.cs",
+              "DocumentMoniker": "C:\\Users\\tkach\\Documents\\C#\\faza\\client\\api\\TcpClientService.cs",
+              "RelativeDocumentMoniker": "api\\TcpClientService.cs",
+              "ToolTip": "C:\\Users\\tkach\\Documents\\C#\\faza\\client\\api\\TcpClientService.cs",
+              "RelativeToolTip": "api\\TcpClientService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T23:05:16.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ValueHistoryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\tkach\\Documents\\C#\\faza\\client\\common\\request\\ValueHistoryRequest.cs",
+              "RelativeDocumentMoniker": "common\\request\\ValueHistoryRequest.cs",
+              "ToolTip": "C:\\Users\\tkach\\Documents\\C#\\faza\\client\\common\\request\\ValueHistoryRequest.cs",
+              "RelativeToolTip": "common\\request\\ValueHistoryRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T22:53:30.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaseRequest.cs",
+              "DocumentMoniker": "C:\\Users\\tkach\\Documents\\C#\\faza\\client\\common\\request\\BaseRequest.cs",
+              "RelativeDocumentMoniker": "common\\request\\BaseRequest.cs",
+              "ToolTip": "C:\\Users\\tkach\\Documents\\C#\\faza\\client\\common\\request\\BaseRequest.cs",
+              "RelativeToolTip": "common\\request\\BaseRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T22:38:13.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GeneratorResponse.cs",
+              "DocumentMoniker": "C:\\Users\\tkach\\Documents\\C#\\faza\\client\\common\\response\\GeneratorResponse.cs",
+              "RelativeDocumentMoniker": "common\\response\\GeneratorResponse.cs",
+              "ToolTip": "C:\\Users\\tkach\\Documents\\C#\\faza\\client\\common\\response\\GeneratorResponse.cs",
+              "RelativeToolTip": "common\\response\\GeneratorResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T22:53:16.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BaseResponse.cs",
+              "DocumentMoniker": "C:\\Users\\tkach\\Documents\\C#\\faza\\client\\common\\response\\BaseResponse.cs",
+              "RelativeDocumentMoniker": "common\\response\\BaseResponse.cs",
+              "ToolTip": "C:\\Users\\tkach\\Documents\\C#\\faza\\client\\common\\response\\BaseResponse.cs",
+              "RelativeToolTip": "common\\response\\BaseResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T22:53:15.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CrudRequest.cs",
+              "DocumentMoniker": "C:\\Users\\tkach\\Documents\\C#\\faza\\client\\common\\request\\CrudRequest.cs",
+              "RelativeDocumentMoniker": "common\\request\\CrudRequest.cs",
+              "ToolTip": "C:\\Users\\tkach\\Documents\\C#\\faza\\client\\common\\request\\CrudRequest.cs",
+              "RelativeToolTip": "common\\request\\CrudRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T22:53:13.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "DeviceService.cs",
               "DocumentMoniker": "C:\\Users\\tkach\\Documents\\C#\\faza\\client\\api\\services\\DeviceService.cs",
               "RelativeDocumentMoniker": "api\\services\\DeviceService.cs",
@@ -47,31 +182,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GeneratorService.cs",
               "DocumentMoniker": "C:\\Users\\tkach\\Documents\\C#\\faza\\client\\api\\services\\GeneratorService.cs",
               "RelativeDocumentMoniker": "api\\services\\GeneratorService.cs",
               "ToolTip": "C:\\Users\\tkach\\Documents\\C#\\faza\\client\\api\\services\\GeneratorService.cs",
               "RelativeToolTip": "api\\services\\GeneratorService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T19:48:48.856Z"
+              "WhenOpened": "2025-02-18T19:48:48.856Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "InterfaceService.cs",
               "DocumentMoniker": "C:\\Users\\tkach\\Documents\\C#\\faza\\client\\api\\services\\InterfaceService.cs",
               "RelativeDocumentMoniker": "api\\services\\InterfaceService.cs",
               "ToolTip": "C:\\Users\\tkach\\Documents\\C#\\faza\\client\\api\\services\\InterfaceService.cs",
               "RelativeToolTip": "api\\services\\InterfaceService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T19:48:45.304Z"
+              "WhenOpened": "2025-02-18T19:48:45.304Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "RegisterService.cs",
               "DocumentMoniker": "C:\\Users\\tkach\\Documents\\C#\\faza\\client\\api\\services\\RegisterService.cs",
               "RelativeDocumentMoniker": "api\\services\\RegisterService.cs",
@@ -83,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "RegisterValueService.cs",
               "DocumentMoniker": "C:\\Users\\tkach\\Documents\\C#\\faza\\client\\api\\services\\RegisterValueService.cs",
               "RelativeDocumentMoniker": "api\\services\\RegisterValueService.cs",

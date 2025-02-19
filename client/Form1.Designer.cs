@@ -70,16 +70,6 @@
             deviceColorButton = new Button();
             cancelAddDeviceButton = new Button();
             confirmAddDeviceButton = new Button();
-            addRegisterPanel = new Panel();
-            registerNameTextBox = new TextBox();
-            label15 = new Label();
-            label14 = new Label();
-            deviceIdComboBox = new ComboBox();
-            cancelAddRegisterButton = new Button();
-            confirmAddRegisterButton = new Button();
-            label12 = new Label();
-            registerDescriptionTextBox = new TextBox();
-            label13 = new Label();
             devicePosYTextBox = new TextBox();
             label10 = new Label();
             devicePosXTextBox = new TextBox();
@@ -97,6 +87,16 @@
             label3 = new Label();
             interfaceIdComboBox = new ComboBox();
             label2 = new Label();
+            addRegisterPanel = new Panel();
+            registerNameTextBox = new TextBox();
+            label15 = new Label();
+            label14 = new Label();
+            deviceIdComboBox = new ComboBox();
+            cancelAddRegisterButton = new Button();
+            confirmAddRegisterButton = new Button();
+            label12 = new Label();
+            registerDescriptionTextBox = new TextBox();
+            label13 = new Label();
             isGeneratorWorkingLabel = new Label();
             registerValueLabel = new Label();
             registerNameLabel = new Label();
@@ -104,6 +104,7 @@
             addInterfacePanel.SuspendLayout();
             addDevicePanel.SuspendLayout();
             addRegisterPanel.SuspendLayout();
+            devicesPanel.SuspendLayout();
             SuspendLayout();
             // 
             // interfaceListView
@@ -417,7 +418,7 @@
             addInterfacePanel.Controls.Add(interfaceNameTextbox);
             addInterfacePanel.Controls.Add(interfaceDescriptionLabel);
             addInterfacePanel.Controls.Add(interfaceNameLabel);
-            addInterfacePanel.Location = new Point(343, 198);
+            addInterfacePanel.Location = new Point(3, 122);
             addInterfacePanel.Name = "addInterfacePanel";
             addInterfacePanel.Size = new Size(285, 181);
             addInterfacePanel.TabIndex = 24;
@@ -490,7 +491,6 @@
             addDevicePanel.Controls.Add(deviceColorButton);
             addDevicePanel.Controls.Add(cancelAddDeviceButton);
             addDevicePanel.Controls.Add(confirmAddDeviceButton);
-            addDevicePanel.Controls.Add(addRegisterPanel);
             addDevicePanel.Controls.Add(devicePosYTextBox);
             addDevicePanel.Controls.Add(label10);
             addDevicePanel.Controls.Add(devicePosXTextBox);
@@ -508,7 +508,7 @@
             addDevicePanel.Controls.Add(label3);
             addDevicePanel.Controls.Add(interfaceIdComboBox);
             addDevicePanel.Controls.Add(label2);
-            addDevicePanel.Location = new Point(344, 199);
+            addDevicePanel.Location = new Point(565, 137);
             addDevicePanel.Name = "addDevicePanel";
             addDevicePanel.Size = new Size(299, 368);
             addDevicePanel.TabIndex = 25;
@@ -543,103 +543,6 @@
             confirmAddDeviceButton.Text = "Подтвердить";
             confirmAddDeviceButton.UseVisualStyleBackColor = true;
             confirmAddDeviceButton.Click += confirmAddDeviceButton_Click;
-            // 
-            // addRegisterPanel
-            // 
-            addRegisterPanel.BorderStyle = BorderStyle.FixedSingle;
-            addRegisterPanel.Controls.Add(registerNameTextBox);
-            addRegisterPanel.Controls.Add(label15);
-            addRegisterPanel.Controls.Add(label14);
-            addRegisterPanel.Controls.Add(deviceIdComboBox);
-            addRegisterPanel.Controls.Add(cancelAddRegisterButton);
-            addRegisterPanel.Controls.Add(confirmAddRegisterButton);
-            addRegisterPanel.Controls.Add(label12);
-            addRegisterPanel.Controls.Add(registerDescriptionTextBox);
-            addRegisterPanel.Controls.Add(label13);
-            addRegisterPanel.Location = new Point(-1, -1);
-            addRegisterPanel.Name = "addRegisterPanel";
-            addRegisterPanel.Size = new Size(288, 181);
-            addRegisterPanel.TabIndex = 26;
-            addRegisterPanel.Visible = false;
-            // 
-            // registerNameTextBox
-            // 
-            registerNameTextBox.Location = new Point(101, 70);
-            registerNameTextBox.Name = "registerNameTextBox";
-            registerNameTextBox.Size = new Size(179, 23);
-            registerNameTextBox.TabIndex = 11;
-            // 
-            // label15
-            // 
-            label15.AutoSize = true;
-            label15.Location = new Point(3, 78);
-            label15.Name = "label15";
-            label15.Size = new Size(34, 15);
-            label15.TabIndex = 10;
-            label15.Text = "Имя:";
-            // 
-            // label14
-            // 
-            label14.AutoSize = true;
-            label14.Location = new Point(3, 49);
-            label14.Name = "label14";
-            label14.Size = new Size(67, 15);
-            label14.TabIndex = 9;
-            label14.Text = "ID девайса:";
-            // 
-            // deviceIdComboBox
-            // 
-            deviceIdComboBox.DropDownStyle = ComboBoxStyle.DropDownList;
-            deviceIdComboBox.FormattingEnabled = true;
-            deviceIdComboBox.Location = new Point(101, 41);
-            deviceIdComboBox.Name = "deviceIdComboBox";
-            deviceIdComboBox.Size = new Size(179, 23);
-            deviceIdComboBox.TabIndex = 8;
-            // 
-            // cancelAddRegisterButton
-            // 
-            cancelAddRegisterButton.Location = new Point(186, 151);
-            cancelAddRegisterButton.Name = "cancelAddRegisterButton";
-            cancelAddRegisterButton.Size = new Size(94, 23);
-            cancelAddRegisterButton.TabIndex = 6;
-            cancelAddRegisterButton.Text = "Отмена";
-            cancelAddRegisterButton.UseVisualStyleBackColor = true;
-            cancelAddRegisterButton.Click += cancelAddRegisterButton_Click;
-            // 
-            // confirmAddRegisterButton
-            // 
-            confirmAddRegisterButton.Location = new Point(3, 151);
-            confirmAddRegisterButton.Name = "confirmAddRegisterButton";
-            confirmAddRegisterButton.Size = new Size(94, 23);
-            confirmAddRegisterButton.TabIndex = 5;
-            confirmAddRegisterButton.Text = "Подтвердить";
-            confirmAddRegisterButton.UseVisualStyleBackColor = true;
-            confirmAddRegisterButton.Click += confirmAddRegisterButton_Click;
-            // 
-            // label12
-            // 
-            label12.AutoSize = true;
-            label12.Location = new Point(13, 8);
-            label12.Name = "label12";
-            label12.Size = new Size(103, 15);
-            label12.TabIndex = 4;
-            label12.Text = "Создайте регистр";
-            // 
-            // registerDescriptionTextBox
-            // 
-            registerDescriptionTextBox.Location = new Point(101, 99);
-            registerDescriptionTextBox.Name = "registerDescriptionTextBox";
-            registerDescriptionTextBox.Size = new Size(179, 23);
-            registerDescriptionTextBox.TabIndex = 3;
-            // 
-            // label13
-            // 
-            label13.AutoSize = true;
-            label13.Location = new Point(3, 107);
-            label13.Name = "label13";
-            label13.Size = new Size(65, 15);
-            label13.TabIndex = 1;
-            label13.Text = "Описание:";
             // 
             // devicePosYTextBox
             // 
@@ -784,6 +687,103 @@
             label2.TabIndex = 5;
             label2.Text = "Создайте девайс";
             // 
+            // addRegisterPanel
+            // 
+            addRegisterPanel.BorderStyle = BorderStyle.FixedSingle;
+            addRegisterPanel.Controls.Add(registerNameTextBox);
+            addRegisterPanel.Controls.Add(label15);
+            addRegisterPanel.Controls.Add(label14);
+            addRegisterPanel.Controls.Add(deviceIdComboBox);
+            addRegisterPanel.Controls.Add(cancelAddRegisterButton);
+            addRegisterPanel.Controls.Add(confirmAddRegisterButton);
+            addRegisterPanel.Controls.Add(label12);
+            addRegisterPanel.Controls.Add(registerDescriptionTextBox);
+            addRegisterPanel.Controls.Add(label13);
+            addRegisterPanel.Location = new Point(271, 137);
+            addRegisterPanel.Name = "addRegisterPanel";
+            addRegisterPanel.Size = new Size(288, 181);
+            addRegisterPanel.TabIndex = 26;
+            addRegisterPanel.Visible = false;
+            // 
+            // registerNameTextBox
+            // 
+            registerNameTextBox.Location = new Point(101, 70);
+            registerNameTextBox.Name = "registerNameTextBox";
+            registerNameTextBox.Size = new Size(179, 23);
+            registerNameTextBox.TabIndex = 11;
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.Location = new Point(3, 78);
+            label15.Name = "label15";
+            label15.Size = new Size(34, 15);
+            label15.TabIndex = 10;
+            label15.Text = "Имя:";
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Location = new Point(3, 49);
+            label14.Name = "label14";
+            label14.Size = new Size(67, 15);
+            label14.TabIndex = 9;
+            label14.Text = "ID девайса:";
+            // 
+            // deviceIdComboBox
+            // 
+            deviceIdComboBox.DropDownStyle = ComboBoxStyle.DropDownList;
+            deviceIdComboBox.FormattingEnabled = true;
+            deviceIdComboBox.Location = new Point(101, 41);
+            deviceIdComboBox.Name = "deviceIdComboBox";
+            deviceIdComboBox.Size = new Size(179, 23);
+            deviceIdComboBox.TabIndex = 8;
+            // 
+            // cancelAddRegisterButton
+            // 
+            cancelAddRegisterButton.Location = new Point(186, 151);
+            cancelAddRegisterButton.Name = "cancelAddRegisterButton";
+            cancelAddRegisterButton.Size = new Size(94, 23);
+            cancelAddRegisterButton.TabIndex = 6;
+            cancelAddRegisterButton.Text = "Отмена";
+            cancelAddRegisterButton.UseVisualStyleBackColor = true;
+            cancelAddRegisterButton.Click += cancelAddRegisterButton_Click;
+            // 
+            // confirmAddRegisterButton
+            // 
+            confirmAddRegisterButton.Location = new Point(3, 151);
+            confirmAddRegisterButton.Name = "confirmAddRegisterButton";
+            confirmAddRegisterButton.Size = new Size(94, 23);
+            confirmAddRegisterButton.TabIndex = 5;
+            confirmAddRegisterButton.Text = "Подтвердить";
+            confirmAddRegisterButton.UseVisualStyleBackColor = true;
+            confirmAddRegisterButton.Click += confirmAddRegisterButton_Click;
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Location = new Point(13, 8);
+            label12.Name = "label12";
+            label12.Size = new Size(103, 15);
+            label12.TabIndex = 4;
+            label12.Text = "Создайте регистр";
+            // 
+            // registerDescriptionTextBox
+            // 
+            registerDescriptionTextBox.Location = new Point(101, 99);
+            registerDescriptionTextBox.Name = "registerDescriptionTextBox";
+            registerDescriptionTextBox.Size = new Size(179, 23);
+            registerDescriptionTextBox.TabIndex = 3;
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Location = new Point(3, 107);
+            label13.Name = "label13";
+            label13.Size = new Size(65, 15);
+            label13.TabIndex = 1;
+            label13.Text = "Описание:";
+            // 
             // isGeneratorWorkingLabel
             // 
             isGeneratorWorkingLabel.AutoSize = true;
@@ -817,6 +817,7 @@
             // devicesPanel
             // 
             devicesPanel.BorderStyle = BorderStyle.FixedSingle;
+            devicesPanel.Controls.Add(addInterfacePanel);
             devicesPanel.Location = new Point(866, 14);
             devicesPanel.Name = "devicesPanel";
             devicesPanel.Size = new Size(431, 308);
@@ -828,12 +829,12 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1309, 653);
+            Controls.Add(addRegisterPanel);
             Controls.Add(devicesPanel);
             Controls.Add(registerNameLabel);
             Controls.Add(registerValueLabel);
             Controls.Add(isGeneratorWorkingLabel);
             Controls.Add(addDevicePanel);
-            Controls.Add(addInterfacePanel);
             Controls.Add(endDateLabel);
             Controls.Add(startDateLabel);
             Controls.Add(registerValueListView);
@@ -866,6 +867,7 @@
             addDevicePanel.PerformLayout();
             addRegisterPanel.ResumeLayout(false);
             addRegisterPanel.PerformLayout();
+            devicesPanel.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }

@@ -122,3 +122,4 @@ C:\Users\tkach\Documents\C#\faza\server\obj\Debug\net8.0\refint\test_Faza.dll
 C:\Users\tkach\Documents\C#\faza\server\obj\Debug\net8.0\test_Faza.pdb
 C:\Users\tkach\Documents\C#\faza\server\obj\Debug\net8.0\test_Faza.genruntimeconfig.cache
 C:\Users\tkach\Documents\C#\faza\server\obj\Debug\net8.0\ref\test_Faza.dll
+C:\Users\tkach\Documents\C#\faza\server\obj\Debug\net8.0\test_Faza.sourcelink.json

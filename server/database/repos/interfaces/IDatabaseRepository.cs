@@ -12,5 +12,6 @@ namespace test_Faza.database.repos.interfaces
         List<int> ReadRegisterIds();
         List<RegisterValue> CreateMultipleValues(List<RegisterValue> values);
         List<RegisterValue> GetValuesHistory(Register register, DateTime startDate, DateTime endDate);
+        List<Log> GetLatestLogs();
     }
 }

@@ -1,5 +1,4 @@
-﻿using Newtonsoft.Json;
-using test_Faza.api.services.interfaces;
+﻿using test_Faza.api.services.interfaces;
 using test_Faza.database.entities;
 using test_Faza.database.repos.interfaces;
 
@@ -20,10 +19,8 @@ namespace test_Faza.api.services
         {
             try
             {
-                Console.WriteLine("DeviceService.Create");
                 bool interfaceExists = _interfaceService.Read(deviceEntity.InterfaceId) != null;
                 Device? createdDevice = _databaseRepository.Create(deviceEntity);
-                Console.WriteLine($"Девайс создан {JsonConvert.SerializeObject(createdDevice)}");
 
                 if (interfaceExists && createdDevice != null)
                     return deviceEntity;
@@ -33,11 +30,6 @@ namespace test_Faza.api.services
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Exception: {ex.Message}");
-                if (ex.InnerException != null)
-                {
-                    Console.WriteLine($"InnerException: {ex.InnerException.Message}");
-                }
                 return null;
             }
         }

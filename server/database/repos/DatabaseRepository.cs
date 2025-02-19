@@ -138,5 +138,17 @@ namespace test_Faza.database.repos
                 throw new Exception(ex.Message);
             }
         }
+
+        public List<Log> GetLatestLogs()
+        {
+            try
+            {
+                return _context.Logs.OrderByDescending(l => l.Timestamp).Take(1000).ToList();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
     }
 }

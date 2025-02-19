@@ -69,7 +69,6 @@ namespace test_Faza.api.controllers
 
                             if (updatedDevice != null)
                             {
-                                Console.WriteLine(JsonConvert.SerializeObject(updatedDevice));
                                 _logger.LogMessage($"Девайс {updatedDevice.Name} успешно обновлён", database.entities.MessageType.Success);
                                 return new BaseResponse { Success = true };
                             }
